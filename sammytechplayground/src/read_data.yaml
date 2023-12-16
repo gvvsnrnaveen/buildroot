@@ -1,0 +1,8 @@
+# sample yaml data
+person:
+  name: naveen
+  age: 38
+  address:
+    city: Hyderabad
+    state: Telangana
+    country: India
