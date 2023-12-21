@@ -2,6 +2,8 @@ config BR2_PACKAGE_SAMMYTECHPLAYGROUND
 	bool "Sammy Tech Playground"
 	select BR2_PACKAGE_JSON_C
 	select BR2_PACKAGE_LIBYAML
+	select BR2_PACKAGE_MOSQUITTO
+	select BR2_PACKAGE_MOSQUITTO_BROKER
 
 	help
 	  Mypackage - This is a package containing the coding samples 

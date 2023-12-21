@@ -5,5 +5,7 @@ all:
 	$(CC) prog4_yaml_read.c -o prog4_yaml_read -lyaml
 	$(CC) prog5_yaml_write.c -o prog5_yaml_write -lyaml
 
+	$(CC) sammy_comm.c -o sammy_comm -lmosquitto -ljson-c -lpthread
+
 clean:
-	rm -rf prog1 prog2_json_read
+	rm -rf prog1 prog2_json_read prog3_json_create prog4_yaml_read prog5_yaml_write sammy_comm
