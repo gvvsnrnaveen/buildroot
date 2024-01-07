@@ -1,4 +1,4 @@
-# Buildroot Cross-Compilation Examples
+# Cross-Compilation Examples
 
 <ol>
   <li>sammytechplayground package</li>
