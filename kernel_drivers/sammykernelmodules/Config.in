@@ -1,0 +1,5 @@
+config BR2_PACKAGE_SAMMYKERNELMODULES
+	bool "Sammy kernel modules"
+	
+	help
+	  This is the kernel modules source directory

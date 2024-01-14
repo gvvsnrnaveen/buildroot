@@ -1,0 +1,7 @@
+SAMMYKERNELMODULES_VERSION=1.0
+SAMMYKERNELMODULES_SITE=package/sammykernelmodules/src
+SAMMYKERNELMODULES_SITE_METHOD=local
+SAMMYKERNELMODULES_LICENSE=GPL-2.0
+
+$(eval $(kernel-module))
+$(eval $(generic-package))
