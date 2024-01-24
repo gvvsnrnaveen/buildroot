@@ -9,4 +9,11 @@
     <li>Reading a YAML File</li>
     <li>Generating and Writing a YAML file</li>
   </ol>
+  <li>Kernel Drivers</li>
+  <ol>
+    <li>Basic kernel moodule - GPIO</li>
+    <li>HCSR-04 GPIO</li>
+    <li>HCSR-04 GPIO Interrupt</li>
+    <li>Interrupt bottom half - Workqueues</li>
+  </ol>
 </ol>
