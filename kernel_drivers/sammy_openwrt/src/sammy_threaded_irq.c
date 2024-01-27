@@ -20,7 +20,6 @@ static int intr_handled = 0;
 
 // Top half ISR
 static irqreturn_t irq_handler(int irq, void *dev){
-	unsigned long jiffies_diff = 0;
 	printk(KERN_INFO "SAMMY: Interrupt occurred, rasing the threaded_irq\n");
 	if(intr_handled == 1){
 		return IRQ_HANDLED;
