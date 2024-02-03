@@ -10,7 +10,7 @@ obj-m+=sammy_threaded_irq.o
 obj-m+=sammy_tasklet.o
 obj-m+=sammy_tasklet_init.o
 obj-m+=sammy_softirq.o
-
+obj-m+=sammy_uno_i2c.o
 all:
 	$(MAKE) -C $(LINUX_DIR) M=$(PWD) modules
 
