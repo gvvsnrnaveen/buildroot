@@ -21,4 +21,5 @@
 # Netlink sockets Examples
 <ol>
   <li>Netlink Route example</li>
+  <li>Netlink Interfaces example - Similar to "ip link" </li>
 </ol>
