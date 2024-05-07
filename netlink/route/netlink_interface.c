@@ -1,3 +1,10 @@
+/**
+ * NOTE: This program is to show case the functionality of the Netlink sockets 
+ * to interact with the Link status of the interfaces.
+ * Author: G. Naveen Kumar
+ *
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
